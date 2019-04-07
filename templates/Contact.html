@@ -1,0 +1,42 @@
+$def with (headerhtml, footerhtml)
+
+$:headerhtml
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+
+      <!-- Content -->
+      <div class="container titleTop-xs titleTop-sm titleTop-md" style="text-align: center;">
+          <!-- Title Begin -->
+          <h2 style="letter-spacing: 0.5px; font-weight: bold">Contact us</h2>
+          <!-- Title End -->
+          <div class="row">
+            <div class="card" style="width: 16rem; margin-left: 20px; margin-right: 20px; margin-bottom: 20px">
+              <img class="card-img-top" src="../static/images/developer_ico.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Admin - Louis He</h5>
+                <p class="card-text">If you need any tech support or have any questions about this website, please email the admin.</p>
+                <form action="mailto:siwei.he@mail.utoronto.ca" enctype="text/plain" method="get">
+                  <input class="btn btn-primary" type="submit" value="Email Developer">
+                </form>
+                <form style="margin-top: 20px;" action="weixin://qr/EIe1zoV1ZZRnpFBFMO9FzBY" enctype="text/plain" method="get">
+                  <input class="btn btn-primary" type="submit" value="Add wechat">
+                </form>
+                wechatID: hsw617
+              </div>
+            </div>
+
+            <div class="card" style="width: 16rem; margin-left: 20px; margin-right: 20px; margin-bottom: 20px">
+              <img class="card-img-top" src="../static/images/QRCode.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ACE helper</h5>
+                <p class="card-text">If you have any question about ACE, you can scan the QR code above and ask the ACE helper.</p>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+$:footerhtml
