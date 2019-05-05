@@ -1,4 +1,4 @@
-$def with (headerhtml, footerhtml)
+$def with (headerhtml, eventListHtml, footerhtml)
 
 $:headerhtml
   <!-- ========== MAIN CONTENT ========== -->
@@ -87,90 +87,7 @@ $:headerhtml
             </div>
           </div>
           <hr>
-          <div class="row" style="margin-top: 10px">
-            <div class="col-3">
-              <span class="badge badge-success">Done</span>
-            </div>
-            <div class="col-3">
-              2018 Singles Day Party
-            </div>
-            <div class="col-3">
-              2018.11.10
-            </div>
-            <div class="col-3">
-              TBA
-            </div>
-          </div>
-          <div class="row" style="margin-top: 10px">
-            <div class="col-3">
-              <span class="badge badge-success">Done</span>
-            </div>
-            <div class="col-3">
-              Online Dating
-            </div>
-            <div class="col-3">
-              2018.Nov
-            </div>
-            <div class="col-3">
-              Online[Not Ready]
-            </div>
-          </div>
-          <div class="row" style="margin-top: 10px">
-            <div class="col-3">
-              <span class="badge badge-success">Done</span>
-            </div>
-            <div class="col-3">
-              <a href="https://mp.weixin.qq.com/s/BuW6Np3c-U11aF4jrspJWg">BBQ party</a>
-            </div>
-            <div class="col-3">
-              2018.10.6
-            </div>
-            <div class="col-3">
-              Christie Pits Park
-            </div>
-          </div>
-          <div class="row" style="margin-top: 10px">
-            <div class="col-3">
-              <span class="badge badge-success">Done</span>
-            </div>
-            <div class="col-3">
-              <a href="https://mp.weixin.qq.com/s/ihrFIDJnJF3k8Gj7YEwQnw">Sports Competition</a>
-            </div>
-            <div class="col-3">
-              2018.09.29
-            </div>
-            <div class="col-3">
-              SF Pit
-            </div>
-          </div>
-          <div class="row" style="margin-top: 10px">
-            <div class="col-3">
-              <span class="badge badge-success">Done</span>
-            </div>
-            <div class="col-3">
-              2018 Orientation
-            </div>
-            <div class="col-3">
-              2018.09.10
-            </div>
-            <div class="col-3">
-              SF3202
-            </div>
-          </div>
-          <div class="row" style="margin-top: 10px">
-            <div class="col-3">
-              <span class="badge badge-success">Done</span>
-            </div>
-            <div class="col-3">
-              2018 Club Fair
-            </div>
-            <div class="col-3">
-              2018.09.7
-            </div>
-            <div class="col-3">
-              Front Campus, BA2159
-            </div>
-          </div>
+          $:eventListHtml
           <!-- Event Lists End -->
 
         </div>
