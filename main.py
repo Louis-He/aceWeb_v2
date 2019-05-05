@@ -145,7 +145,11 @@ class team:
     def GET(self):
         return render.Team(headerhtml, footerhtml)
 
+def notfound():
+    return web.notfound(render.notfound404(headerhtml, footerhtml))
+
 render = web.template.render('templates/')
 if __name__ == "__main__":
     app = web.application(urls, globals())
+    app.notfound = notfound
     app.run()
